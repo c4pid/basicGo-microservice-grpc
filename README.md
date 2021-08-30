@@ -13,11 +13,11 @@ grpcui -plaintext 127.0.0.1:port
 
 ## API Customer
 
-![create-customer.png](./create-customer.png)_
+![create-customer.png](./create-customer.png)
 <br />
-![update-customer.png](./update-customer.png)_
+![update-customer.png](./update-customer.png)
 <br />
-![changepass-customer.png](./changepass-customer.png)_
+![changepass-customer.png](./changepass-customer.png)
 <br />
 
 ## API Flight
