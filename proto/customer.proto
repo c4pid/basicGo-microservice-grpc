@@ -1,0 +1,42 @@
+syntax = "proto3";
+package assignment;
+option go_package = "./;pb";
+
+service CustomerService{
+    rpc CreateCustomer (Customer) returns (Customer);
+    rpc UpdateCustomer (Customer) returns (Customer);
+    rpc ChangePassword (ChangePasswordRequest) returns (ChangePasswordResponse);
+    rpc FindCustomer (FindRequest) returns (FindResponse);
+}
+
+
+message Customer{
+    int64 id = 1;
+    string name = 2;
+    string address = 3;
+    string license_id = 4;
+    string phone_number = 5;
+    string email = 6;
+    string password = 7;
+    bool active = 8;
+}
+
+message ChangePasswordRequest{
+    int64 id = 1;
+    string old_password = 2;
+    string new_password = 3;
+    string confirm_password = 4;
+}
+
+message FindRequest{
+    int64 id = 1;
+}
+
+message FindResponse{
+    int64 id = 1;
+    string name = 2;
+    string address = 3;
+    string email = 4;
+}
+
+message ChangePasswordResponse{}
