@@ -21,19 +21,19 @@ grpcui -plaintext 127.0.0.1:port
 <br />
 
 ## API Flight
-![flight-create.png](./booking-create.png)_
+![flight-create.png](./booking-create.png)
 <br />
-![flight-update.png](./flight-update.png)_
+![flight-update.png](./flight-update.png)
 <br />
-![flight-search.png](./flight-search.png)_
+![flight-search.png](./flight-search.png)
 <br />
 
 
 ## API Booking
-![booking-create.png](./booking-create.png)_
+![booking-create.png](./booking-create.png)
 <br />
-![booking-view.png](./booking-view.png)_
+![booking-view.png](./booking-view.png)
 <br />
-![booking-cancel.png](./booking-cancel.png)_
+![booking-cancel.png](./booking-cancel.png)
 <br />
 
